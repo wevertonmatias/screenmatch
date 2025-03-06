@@ -2,7 +2,6 @@ package br.com.alura.screematch.model;
 
 import java.time.DateTimeException;
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 
 public class Episodio {
@@ -32,9 +31,8 @@ public class Episodio {
 
     @Override
     public String toString() {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         return "Temporada: %s | Episodio: %s | Avaliação %s | Data de Lançamento %s | Titulo: %s"
-                .formatted(this.numeroTemporada, this.numero, this.avaliacao, formatter.format(this.dataLancamento), this.titulo);
+                .formatted(this.numeroTemporada, this.numero, this.avaliacao, this.dataLancamento, this.titulo);
     }
 
     public Integer getNumeroTemporada() {
