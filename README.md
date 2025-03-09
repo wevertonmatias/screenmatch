@@ -13,6 +13,8 @@ Familiarizar-me com Java e Spring, configurando o ambiente e escrevendo meu prim
 
 ## 📅 Data de Início
 ### 03/03/2025
+## 📅 Data de Término
+### 06/03/2025
 
 ---
 Este é apenas um ponto de partida, e novas experiências virão no futuro!
